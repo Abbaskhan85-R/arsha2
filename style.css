@@ -86,3 +86,41 @@
     font-size: 1rem;
    
 }
+
+.progress-color{
+    background-color: var(--main-color);
+}
+
+.text-blue{
+    color: var(--main-color);
+}
+
+.content{
+    z-index: 111;
+}
+
+.work-card{
+    overflow: hidden;
+}
+.work-card img{
+    transition: all 0.4s;
+}
+
+.work-card:hover img{
+    transform: scale(1.1);
+}
+
+.work-card .content{
+    transition: all 0.4s;
+}
+.work-card:hover .content{
+    transform: translateY(-10px);
+}
+
+
+.bg-image-section{
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
