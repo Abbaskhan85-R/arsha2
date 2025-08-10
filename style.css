@@ -1,0 +1,88 @@
+:root{
+    --main-color:  #37517e;
+}
+
+
+.main-container{
+    background-color: var(--main-color);
+}
+
+.navbar a{
+    color: antiquewhite !important;
+}
+
+.dropdown-menu a{
+    color: black !important;
+}
+
+.main-image{
+    animation: move 1s linear infinite alternate;
+}
+
+@keyframes move{
+    from{
+            transform: translateY(0);
+
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.about-h2
+{
+    color: var(--main-color);
+}
+
+
+.first-line{
+    height: 2px;
+    width: 160px;
+    background-color: lightgray;
+    margin: auto;
+    position: relative;
+
+}
+.second-line{
+    height: 4px;
+    width: 40%;
+    background-color: aqua;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.span-2{
+    color: var(--main-color);
+
+}
+
+.progress{
+    height: 10px;
+    
+}
+
+.progress-h1-heading{
+    color: var(--main-color);
+}
+.progress-p{
+    color: gray;
+    font-size: 1.1rem;
+}
+.progress-main-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+   
+}
+
+.progress-heading{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.progress-container-row h4{
+    font-size: 1rem;
+   
+}
