@@ -1,5 +1,5 @@
 :root{
-    --main-color:  #37517e;
+    --main-color:  rgb(55, 81, 126);
 }
 
 
@@ -119,8 +119,35 @@
 
 
 .bg-image-section{
-    background-image: url(download.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
+   background:linear-gradient(to right, rgba(55, 81, 126, 0.5),rgb(55, 81, 126, 0.5)), url(download.jpeg) fixed;
+}
+
+.image-animation-1{
+    overflow: hidden;
+}
+.overlay{
+    bottom: -95px;
+    transition: all 0.3s;
+    background-color: rgba(213, 164, 172, 0.5);
+}
+
+.image-animation-1:hover .overlay{
+    bottom: 0;
+}
+
+.social-icon-team i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.social-icon-team i:hover{
+    background-color: var(--bs-info);
+    color: white;
+
 }
