@@ -151,3 +151,41 @@
     color: white;
 
 }
+
+.cross-p{
+    text-decoration: line-through;
+}
+
+.card2{
+    overflow: hidden;
+}
+
+.card2 img{
+    transition: all 0.2s;
+    
+}
+
+.card2:hover img{
+    transform: scale(1.1);
+
+}
+
+.card2:hover h4{
+    color: var(--bs-info);
+}
+.card2:hover a{
+    color: var(--bs-info) !important;
+}
+
+
+.card3{
+    border: 3px solid var(--bs-info);
+    border-left: 0;
+    border-right: 0;
+    border-radius: 5px;
+}
+
+.join-btn{
+    right: 17%;
+    transform: translateX(-50%);
+}
